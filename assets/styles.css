@@ -21,9 +21,10 @@ a:hover { text-decoration: underline; }
 
 h1 { margin: 0; font-size: clamp(20px, 3vw, 28px); }
 
+/* Homepage grid */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 16px;
 }
 
@@ -45,6 +46,7 @@ h1 { margin: 0; font-size: clamp(20px, 3vw, 28px); }
 .card-title { margin: 0; font-size: 16px; color: #fff; }
 .card-sub { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
 
+/* Summary block */
 .summary {
   background: var(--card);
   border: 1px solid #1c1f27;
@@ -54,16 +56,25 @@ h1 { margin: 0; font-size: clamp(20px, 3vw, 28px); }
 }
 .summary iframe { width: 100%; min-height: 360px; border: 0; border-radius: 12px; background: #000; }
 
+/* PROJECT PAGE: single column, one item per line */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 12px;
+  grid-template-columns: 1fr;   /* <— single column */
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.gallery img, .gallery video {
+.gallery img, .gallery video, .gallery iframe, .gallery .html-block {
   width: 100%;
   height: auto;
   border-radius: 12px;
   display: block;
   background: #0f1117;
   border: 1px solid #1c1f27;
+  padding: 0;
+}
+.gallery iframe {
+  min-height: 420px;
+  border: 0;
+  border-radius: 12px;
 }
