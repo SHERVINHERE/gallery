@@ -1,0 +1,29 @@
+{
+  "slug": "sample-project",
+  "title": "Sample Project",
+  "summaryHTML": "<h2>Sample Project Summary</h2>\n<p>Write anything here: plain text, images, or an iframe.</p>\n\n<!-- Example YouTube embed (replace VIDEO_ID) -->\n<iframe\n  src=\"https://www.youtube.com/embed/dQw4w9WgXcQ\"\n  title=\"YouTube video\"\n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n  allowfullscreen></iframe>\n",
+  "content": [
+    {
+      "type": "image",
+      "src": "projects/sample-project/media/01.jpg",
+      "alt": "First image"
+    },
+    {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "title": "Demo video"
+    },
+    {
+      "type": "video",
+      "src": "projects/sample-project/media/clip.mp4"
+    },
+    {
+      "type": "html",
+      "html": "<p>Custom caption block</p>"
+    },
+    {
+      "type": "image",
+      "src": "projects/sample-project/media/02.jpg"
+    }
+  ]
+}
