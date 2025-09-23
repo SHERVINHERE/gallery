@@ -1,68 +1,103 @@
-/* Minimal, responsive layout */
+/* ====== TYPOGRAPHY BASE ====== */
 :root {
-  --bg: #0b0c0f;
-  --card: #13151a;
-  --text: #e6e6e6;
-  --muted: #a0a4ad;
-  --accent: #7bd3ff;
-  --radius: 16px;
+  --font: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 }
 
-* { box-sizing: border-box; }
-html, body { margin:0; padding:0; background: var(--bg); color: var(--text); font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0b0c0f;           /* minimal dark; change later if you want */
+  color: #e6e6e6;
+  font-family: var(--font);
+  font-weight: 200;               /* Default body = ExtraLight 200 */
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+}
 
-a { color: var(--accent); text-decoration: none; }
-a:hover { text-decoration: underline; }
+/* Page titles (header brand, project title) = Medium 500 */
+h1, .site-header h1, #proj-title {
+  font-weight: 500;
+  letter-spacing: 0;
+}
 
+/* Headers inside text blocks (summary headings) = Light 300 */
+h2, h3, .summary h2, .summary h3 {
+  font-weight: 300;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Body text = ExtraLight 200 */
+p, .summary p, .site-footer, .card-title, .meta {
+  font-weight: 200;
+}
+
+/* Caption (under media) = ExtraLight 200 Italic */
+.caption {
+  font-weight: 200;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0.5em;
+  opacity: 0.85;
+  font-size: 0.95em;
+}
+
+/* ====== LAYOUT (minimal) ====== */
 .container { max-width: 1100px; margin: 0 auto; padding: 24px; }
 
-.site-header, .site-footer { padding: 16px 24px; background: #0e1014; position: sticky; top: 0; z-index: 10; border-bottom: 1px solid #222; }
+.site-header, .site-footer {
+  padding: 16px 24px;
+  background: #0e1014;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #222;
+}
 .site-footer { position: static; border-top: 1px solid #222; border-bottom: none; }
 
-h1 { margin: 0; font-size: clamp(20px, 3vw, 28px); }
+a { color: #7bd3ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
 
-/* Homepage grid */
+/* Homepage grid (thumbnails) */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 16px;
 }
-
 .card {
   display: block;
-  background: var(--card);
-  border-radius: var(--radius);
+  background: #13151a;
+  border-radius: 16px;
   overflow: hidden;
   border: 1px solid #1c1f27;
-  box-shadow: 0 2px 8px rgba(0,0,0,.2);
-  transition: transform .12s ease, box-shadow .12s ease;
 }
-.card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.35); }
-
 .thumb-wrap { aspect-ratio: 16/10; background: #0f1117; overflow: hidden; }
 .card img { width: 100%; height: 100%; object-fit: cover; display: block; }
-
 .card-meta { padding: 10px 12px 14px; }
 .card-title { margin: 0; font-size: 16px; color: #fff; }
-.card-sub { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
 
-/* Summary block */
+/* Summary block at top of project pages */
 .summary {
-  background: var(--card);
+  background: #13151a;
   border: 1px solid #1c1f27;
-  border-radius: var(--radius);
+  border-radius: 16px;
   padding: 16px;
   margin-bottom: 18px;
 }
 .summary iframe { width: 100%; min-height: 360px; border: 0; border-radius: 12px; background: #000; }
 
-/* PROJECT PAGE: single column, one item per line */
+/* Project gallery: SINGLE COLUMN (one per line) */
 .gallery {
   display: grid;
-  grid-template-columns: 1fr;   /* <— single column */
+  grid-template-columns: 1fr;     /* exactly one column */
   gap: 24px;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+/* Media wrappers */
+.gallery figure {
+  margin: 0;
 }
 .gallery img, .gallery video, .gallery iframe, .gallery .html-block {
   width: 100%;
@@ -71,7 +106,6 @@ h1 { margin: 0; font-size: clamp(20px, 3vw, 28px); }
   display: block;
   background: #0f1117;
   border: 1px solid #1c1f27;
-  padding: 0;
 }
 .gallery iframe {
   min-height: 420px;
