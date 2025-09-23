@@ -1,0 +1,7 @@
+[
+  { "type": "image",  "src": "projects/sample-project/media/01.jpg", "alt": "First image" },
+  { "type": "iframe", "src": "https://www.youtube.com/embed/dQw4w9WgXcQ", "title": "Demo video" },
+  { "type": "video",  "src": "projects/sample-project/media/clip.mp4" },
+  { "type": "html",   "html": "<p>Custom caption block</p>" },
+  { "type": "image",  "src": "projects/sample-project/media/02.jpg" }
+]
