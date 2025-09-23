@@ -14,30 +14,38 @@ function getSlug() {
   return u.searchParams.get('slug') || '';
 }
 
+function figureWrap(mediaEl, captionText) {
+  const fig = el('figure');
+  fig.appendChild(mediaEl);
+  if (captionText) {
+    const cap = el('figcaption', { class: 'caption' });
+    cap.textContent = captionText;
+    fig.appendChild(cap);
+  }
+  return fig;
+}
+
 function renderItem(gallery, item) {
-  switch (item.type) {
-    case 'image': {
-      const img = el('img', { loading: 'lazy', alt: item.alt || '' });
-      img.src = item.src;
-      gallery.appendChild(img);
-      break;
-    }
-    case 'video': {
-      const v = el('video', { controls: '' });
-      v.src = item.src;
-      gallery.appendChild(v);
-      break;
-    }
-    case 'iframe': {
-      const f = el('iframe', { src: item.src, title: item.title || 'embedded content', allow: item.allow || 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share', allowfullscreen: '' });
-      gallery.appendChild(f);
-      break;
-    }
-    case 'html': {
-      const block = el('div', { class: 'html-block', html: item.html || '' });
-      gallery.appendChild(block);
-      break;
-    }
+  const t = (item.type || '').toLowerCase();
+  if (t === 'image') {
+    const img = el('img', { loading: 'lazy', alt: item.alt || '' });
+    img.src = item.src;
+    gallery.appendChild(figureWrap(img, item.caption));
+  } else if (t === 'video') {
+    const v = el('video', { controls: '' });
+    v.src = item.src;
+    gallery.appendChild(figureWrap(v, item.caption));
+  } else if (t === 'iframe') {
+    const f = el('iframe', {
+      src: item.src,
+      title: item.title || 'embedded content',
+      allow: item.allow || 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share',
+      allowfullscreen: ''
+    });
+    gallery.appendChild(figureWrap(f, item.caption || item.title));
+  } else if (t === 'html') {
+    const block = el('div', { class: 'html-block', html: item.html || '' });
+    gallery.appendChild(figureWrap(block, item.caption));
   }
 }
 
@@ -63,9 +71,8 @@ async function loadProject() {
 
     if (Array.isArray(data.content) && data.content.length) {
       data.content.forEach(item => renderItem(gallery, item));
-    } else {
-      // Shouldn't happen because build fills "content" from /media, but keep a fallback.
-      (data.media || []).forEach(src => {
+    } else if (Array.isArray(data.media)) {
+      data.media.forEach(src => {
         const isVid = /\.(mp4|webm|ogg|m4v|mov)$/i.test(src);
         renderItem(gallery, { type: isVid ? 'video' : 'image', src });
       });
