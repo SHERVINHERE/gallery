@@ -1,11 +1,11 @@
 [
   {
-    "type": "image",
-    "src": "projects/CPHS_Interactive/media/cphs_cover.jpg",
-    "alt": "Cover view",
-    "caption": "Project cover"
+    "type": "iframe",
+    "src": "https://www.youtube.com/embed/qIRzyx2VWv4",
+    "title": "Interactive walkthrough",
+    "caption": "Different exploration modes"
   },
-
+  
   {
     "type": "image",
     "src": "projects/CPHS_Interactive/media/image1.jpg",
@@ -55,10 +55,4 @@
     "caption": "BirdEye"
   }
   
-  ,{
-    "type": "iframe",
-    "src": "https://www.youtube.com/embed/qIRzyx2VWv4",
-    "title": "Interactive walkthrough",
-    "caption": "Different exploration modes"
-  }
 ]
