@@ -1,56 +1,56 @@
 [
   {
     "type": "image",
-    "src": "projects/CPHS_Interactive/media/CPHS_cover.jpg",
+    "src": "projects/CPHS_Interactive/media/cphs_cover.jpg",
     "alt": "Cover view",
     "caption": "Project cover"
   },
 
   {
     "type": "image",
-    "src": "projects/CPHS_Interactive/media/image1",
+    "src": "projects/CPHS_Interactive/media/image1.jpg",
     "alt": "Concept diagram",
     "caption": "Arrival"
   },
 
   {
     "type": "image",
-    "src": "projects/CPHS_Interactive/media/image2",
+    "src": "projects/CPHS_Interactive/media/image2.jpg",
     "alt": "Interior view",
     "caption": "Sunrise"
   },
 
   {
     "type": "image",
-    "src": "projects/CPHS_Interactive/media/image3",
+    "src": "projects/CPHS_Interactive/media/image3.jpg",
     "alt": "Interior view",
     "caption": "BridgeExperience"
   },
 
   {
     "type": "image",
-    "src": "projects/CPHS_Interactive/media/image4",
+    "src": "projects/CPHS_Interactive/media/image4.jpg",
     "alt": "Interior view",
     "caption": "FootballField"
   },
 
   {
     "type": "image",
-    "src": "projects/CPHS_Interactive/media/image5",
+    "src": "projects/CPHS_Interactive/media/image5.jpg",
     "alt": "Interior view",
     "caption": "YardExperience"
   },
   
   {
     "type": "image",
-    "src": "projects/CPHS_Interactive/media/image6",
+    "src": "projects/CPHS_Interactive/media/image6.jpg",
     "alt": "Interior view",
     "caption": "BridgeView"
   },
 
   {
     "type": "image",
-    "src": "projects/CPHS_Interactive/media/image7",
+    "src": "projects/CPHS_Interactive/media/image7.jpg",
     "alt": "Interior view",
     "caption": "BirdEye"
   }
