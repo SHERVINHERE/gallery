@@ -6,22 +6,24 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #0b0c0f;           /* minimal dark; change later if you want */
+  background: #0b0c0f;           /* minimal dark */
   color: #e6e6e6;
   font-family: var(--font);
-  font-weight: 200;               /* Default body = ExtraLight 200 */
+  font-weight: 200;              /* Default body = ExtraLight 200 */
   line-height: 1.6;
   letter-spacing: 0.01em;
 }
 
 /* Page titles (header brand, project title) = Medium 500 */
 h1, .site-header h1, #proj-title {
+  font-family: var(--font);
   font-weight: 500;
   letter-spacing: 0;
 }
 
 /* Headers inside text blocks (summary headings) = Light 300 */
 h2, h3, .summary h2, .summary h3 {
+  font-family: var(--font);
   font-weight: 300;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
@@ -29,11 +31,13 @@ h2, h3, .summary h2, .summary h3 {
 
 /* Body text = ExtraLight 200 */
 p, .summary p, .site-footer, .card-title, .meta {
+  font-family: var(--font);
   font-weight: 200;
 }
 
 /* Caption (under media) = ExtraLight 200 Italic */
 .caption {
+  font-family: var(--font);
   font-weight: 200;
   font-style: italic;
   text-align: center;
