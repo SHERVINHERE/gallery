@@ -3,14 +3,12 @@
   "title": "CPHS_Interactive",
   "summaryHTML": "<h2>Overview</h2>\n<p>\nAn interactive walkthrough of a high school where the building feels alive and actively in use by its occupants. You’ll be able to explore the space through different modes of navigation, interact not only with the people inside but also with the building itself, clicking on elements to uncover technical information about each one.\n</p>\n\n<!-- Example: embed a YouTube video if you have one -->\n<!--\n<iframe\n  src=\"https://youtu.be/c2jVoQX6S2c\"\n  title=\"CPHS_Interactive\"\n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n  allowfullscreen>\n</iframe>\n-->\n",
   "content": [
-
     {
-      "type": "iframe",
-      "src": "https://www.youtube.com/embed/qIRzyx2VWv4",
-      "title": "Interactive walkthrough",
-      "caption": "Different exploration modes"
-    }
-    
+      "type": "image",
+      "src": "projects/CPHS_Interactive/media/cphs_cover.jpg",
+      "alt": "Cover view",
+      "caption": "Project cover"
+    },
     {
       "type": "image",
       "src": "projects/CPHS_Interactive/media/image1.jpg",
@@ -53,6 +51,11 @@
       "alt": "Interior view",
       "caption": "BirdEye"
     },
-
+    {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/qIRzyx2VWv4",
+      "title": "Interactive walkthrough",
+      "caption": "Different exploration modes"
+    }
   ]
 }
