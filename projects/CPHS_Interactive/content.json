@@ -1,0 +1,32 @@
+[
+  {
+    "type": "image",
+    "src": "projects/CPHS_Interactive/media/CPHS_cover.jpg",
+    "alt": "Cover view",
+    "caption": "Project cover"
+  },
+
+  {
+    "type": "image",
+    "src": "projects/CPHS_Interactive/media/01.jpg",
+    "alt": "Concept diagram",
+    "caption": "Concept diagram — early design"
+  },
+
+  {
+    "type": "image",
+    "src": "projects/CPHS_Interactive/media/02.jpg",
+    "alt": "Interior view",
+    "caption": "Interior view — option A"
+  }
+
+
+  /* If you have a YouTube demo, add one like this:
+  ,{
+    "type": "iframe",
+    "src": "https://youtu.be/qIRzyx2VWv4",
+    "title": "Interactive walkthrough",
+    "caption": "Different exploration modes"
+  }
+  */
+]
