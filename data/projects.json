@@ -10,5 +10,11 @@
     "title": "PLACEHOLDER — Replace with project title",
     "thumb": "projects/PLACEHOLDER/media/cover.jpg",
     "externalUrl": null
+  },
+  {
+    "slug": "PhaseExplorer_WebApp",
+    "title": "PhaseExplorer_WebApp",
+    "thumb": "projects/PhaseExplorer_WebApp/media/PhaseExplorer_cover.jpg",
+    "externalUrl": null
   }
 ]

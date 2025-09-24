@@ -1,0 +1,13 @@
+{
+  "slug": "PhaseExplorer_WebApp",
+  "title": "PhaseExplorer_WebApp",
+  "summaryHTML": "<h2>Overview</h2>\n<p>This web app helps demonstrate the phasing of a large project. Useful in client meetings.</p>\n<p>It was created using Unity game engine.</p>\n<p>You can access the app here: <a href=\"https://coarchitects.github.io/chla\" target=\"_blank\" rel=\"noopener\">https://coarchitects.github.io/chla</a></p>\n",
+  "content": [
+    {
+      "type": "iframe",
+      "src": "https://www.youtube-nocookie.com/embed/EUVyweRLkVk",
+      "title": "PhaseExplorer WebApp Demo",
+      "caption": "Screen recording of the App"
+    }
+  ]
+}
