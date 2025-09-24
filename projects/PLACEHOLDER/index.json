@@ -1,0 +1,25 @@
+{
+  "slug": "PLACEHOLDER",
+  "title": "PLACEHOLDER — Replace with project title",
+  "summaryHTML": "<h2>Overview</h2>\n<p>Replace this summary with your project description: goals, role, tools.</p>\n\n<!-- Optional: YouTube/Vimeo iframe example (replace VIDEO_ID) -->\n<!--\n<iframe\n  src=\"https://www.youtube-nocookie.com/embed/VIDEO_ID\"\n  title=\"Project demo\"\n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n  allowfullscreen></iframe>\n-->\n",
+  "content": [
+    {
+      "type": "image",
+      "src": "projects/PLACEHOLDER/media/cover.jpg",
+      "alt": "Cover image",
+      "caption": "Replace with a real caption"
+    },
+    {
+      "type": "image",
+      "src": "projects/PLACEHOLDER/media/01.jpg",
+      "alt": "Second image",
+      "caption": "Another placeholder caption"
+    },
+    {
+      "type": "image",
+      "src": "projects/PLACEHOLDER/media/02.jpg",
+      "alt": "Third image",
+      "caption": "Another placeholder caption"
+    }
+  ]
+}

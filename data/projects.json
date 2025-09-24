@@ -6,6 +6,12 @@
     "externalUrl": null
   },
   {
+    "slug": "PLACEHOLDER",
+    "title": "PLACEHOLDER — Replace with project title",
+    "thumb": "projects/PLACEHOLDER/media/cover.jpg",
+    "externalUrl": null
+  },
+  {
     "slug": "sample-project",
     "title": "Sample Project",
     "thumb": "projects/sample-project/media/01.jpg",
