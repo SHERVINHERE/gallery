@@ -5,11 +5,57 @@
   "content": [
     {
       "type": "image",
-      "src": "projects/CPHS_Interactive/media/1-hsu from field.png"
+      "src": "projects/CPHS_Interactive/media/CPHS_cover.jpg",
+      "alt": "Cover view",
+      "caption": "Project cover"
     },
     {
       "type": "image",
-      "src": "projects/CPHS_Interactive/media/1-lodge n pod_s.png"
+      "src": "projects/CPHS_Interactive/media/image1",
+      "alt": "Concept diagram",
+      "caption": "Arrival"
+    },
+    {
+      "type": "image",
+      "src": "projects/CPHS_Interactive/media/image2",
+      "alt": "Interior view",
+      "caption": "Sunrise"
+    },
+    {
+      "type": "image",
+      "src": "projects/CPHS_Interactive/media/image3",
+      "alt": "Interior view",
+      "caption": "BridgeExperience"
+    },
+    {
+      "type": "image",
+      "src": "projects/CPHS_Interactive/media/image4",
+      "alt": "Interior view",
+      "caption": "FootballField"
+    },
+    {
+      "type": "image",
+      "src": "projects/CPHS_Interactive/media/image5",
+      "alt": "Interior view",
+      "caption": "YardExperience"
+    },
+    {
+      "type": "image",
+      "src": "projects/CPHS_Interactive/media/image6",
+      "alt": "Interior view",
+      "caption": "BridgeView"
+    },
+    {
+      "type": "image",
+      "src": "projects/CPHS_Interactive/media/image7",
+      "alt": "Interior view",
+      "caption": "BirdEye"
+    },
+    {
+      "type": "iframe",
+      "src": "https://youtu.be/qIRzyx2VWv4",
+      "title": "Interactive walkthrough",
+      "caption": "Different exploration modes"
     }
   ]
 }
