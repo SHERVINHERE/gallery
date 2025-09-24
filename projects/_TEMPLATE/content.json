@@ -1,0 +1,20 @@
+[
+  {
+    "type": "image",
+    "src": "projects/_TEMPLATE/media/cover.jpg",
+    "alt": "Cover image",
+    "caption": "Replace with a real caption"
+  },
+  {
+    "type": "image",
+    "src": "projects/_TEMPLATE/media/01.jpg",
+    "alt": "Second image",
+    "caption": "Another placeholder caption"
+  },
+  {
+    "type": "image",
+    "src": "projects/_TEMPLATE/media/02.jpg",
+    "alt": "Third image",
+    "caption": "Another placeholder caption"
+  }
+]
