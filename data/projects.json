@@ -6,12 +6,6 @@
     "externalUrl": null
   },
   {
-    "slug": "_TEMPLATE",
-    "title": "TEMPLATE — Replace with project title",
-    "thumb": "projects/_TEMPLATE/media/cover.jpg",
-    "externalUrl": null
-  },
-  {
     "slug": "sample-project",
     "title": "Sample Project",
     "thumb": "projects/sample-project/media/01.jpg",
