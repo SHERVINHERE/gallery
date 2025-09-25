@@ -1,0 +1,19 @@
+{
+  "slug": "Providence_Animation",
+  "title": "Providence_Animation",
+  "summaryHTML": "<h2>Overview</h2>\n<p>Animation for Providence hospital, highlighting the experience of the visitors arrival. This animation was made using Unreal Engine 5.</p>\n<p>The environment was also used to create an interactive walkthrough.</p>\n",
+  "content": [
+    {
+      "type": "iframe",
+      "src": "https://www.youtube-nocookie.com/embed/nNPonJ4aXWA",
+      "title": "Providence Animation",
+      "caption": "arrival experience"
+    },
+    {
+      "type": "image",
+      "src": "projects/Providence_Animation/media/image1.jpg",
+      "alt": "the arrival",
+      "caption": "the arrival"
+    }
+  ]
+}
