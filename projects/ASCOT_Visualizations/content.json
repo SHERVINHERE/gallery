@@ -1,0 +1,14 @@
+[
+  {
+    "type": "image",
+    "src": "projects/ASCOT_Visualizations/media/image1.jpg",
+    "alt": "Main view",
+    "caption": "main view"
+  },
+  {
+    "type": "iframe",
+    "src": "https://www.youtube-nocookie.com/embed/CDF_pY4N7JE",
+    "title": "ASCOT Visualizations",
+    "caption": "navigate the school"
+  }
+]
