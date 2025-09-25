@@ -1,0 +1,19 @@
+{
+  "slug": "ASCOT_Visualizations",
+  "title": "ASCOT_Visualizations",
+  "summaryHTML": "<h2>Overview</h2>\n<p>Navigating ASCOT elementary school as a student. Each building is using a distinct color, helping kids get around.</p>\n",
+  "content": [
+    {
+      "type": "image",
+      "src": "projects/ASCOT_Visualizations/media/image1.jpg",
+      "alt": "Main view",
+      "caption": "main view"
+    },
+    {
+      "type": "iframe",
+      "src": "https://www.youtube-nocookie.com/embed/CDF_pY4N7JE",
+      "title": "ASCOT Visualizations",
+      "caption": "navigate the school"
+    }
+  ]
+}
