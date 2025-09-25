@@ -11,21 +11,9 @@
     },
     {
       "type": "image",
-      "src": "projects/Providence_Animation/media/PMV_cover.jpg",
+      "src": "projects/Providence_Animation/media/image1.jpg",
       "alt": "the arrival",
       "caption": "the arrival"
-    },
-      {
-      "type": "image",
-      "src": "projects/Providence_Animation/media/image2.jpg",
-      "alt": "bird eye",
-      "caption": "bird eye"
-    },
-    {
-      "type": "image",
-      "src": "projects/Providence_Animation/media/image3.jpg",
-      "alt": "huddle area"",
-      "caption": "huddle area"
     }
   ]
 }
