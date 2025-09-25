@@ -1,0 +1,14 @@
+[
+  {
+    "type": "iframe",
+    "src": "https://www.youtube-nocookie.com/embed/nNPonJ4aXWA",
+    "title": "Providence Animation",
+    "caption": "arrival experience"
+  },
+  {
+    "type": "image",
+    "src": "projects/Providence_Animation/media/image1.jpg",
+    "alt": "the arrival",
+    "caption": "the arrival"
+  }
+]
