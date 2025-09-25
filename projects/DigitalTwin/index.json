@@ -1,0 +1,25 @@
+{
+  "slug": "DigitalTwin",
+  "title": "DigitalTwin",
+  "summaryHTML": "<h2>Overview</h2>\n<p>3 different versions of DigitalTwin of CO Office.</p>\n<h3>Version 1: The Explorer</h3>\n<p>This version allows you to explore the CO office along with CO projects that are displayed within the space. You can load each project using a dropdown menu and simply walk into it.</p>\n<h3>Version 2: The Time Machine</h3>\n<p>This version lets you explore different stages of the build process. You can overlay information from past phases of the office directly onto the 3D model.</p>\n<h3>Version 3: Live Data</h3>\n<p>This version includes real-time data, such as temperature. It also allows you to simulate virtual versions of activities that happen in the building and observe them.</p>\n",
+  "content": [
+    {
+      "type": "iframe",
+      "src": "https://www.youtube-nocookie.com/embed/iOOevT2ZumA",
+      "title": "DigitalTwin – Version 1: The Explorer",
+      "caption": "Version 1: The Explorer"
+    },
+    {
+      "type": "iframe",
+      "src": "https://www.youtube-nocookie.com/embed/P0hC86CCanI",
+      "title": "DigitalTwin – Version 2: The Time Machine",
+      "caption": "Version 2: The Time Machine"
+    },
+    {
+      "type": "iframe",
+      "src": "https://www.youtube-nocookie.com/embed/9r-5mCrqcAk",
+      "title": "DigitalTwin – Version 3: Live Data",
+      "caption": "Version 3: Live Data"
+    }
+  ]
+}
