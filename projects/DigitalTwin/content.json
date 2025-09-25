@@ -1,0 +1,20 @@
+[
+  {
+    "type": "iframe",
+    "src": "https://www.youtube-nocookie.com/embed/iOOevT2ZumA",
+    "title": "DigitalTwin – Version 1: The Explorer",
+    "caption": "Version 1: The Explorer"
+  },
+  {
+    "type": "iframe",
+    "src": "https://www.youtube-nocookie.com/embed/P0hC86CCanI",
+    "title": "DigitalTwin – Version 2: The Time Machine",
+    "caption": "Version 2: The Time Machine"
+  },
+  {
+    "type": "iframe",
+    "src": "https://www.youtube-nocookie.com/embed/9r-5mCrqcAk",
+    "title": "DigitalTwin – Version 3: Live Data",
+    "caption": "Version 3: Live Data"
+  }
+]
