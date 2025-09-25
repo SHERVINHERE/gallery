@@ -1,0 +1,13 @@
+{
+  "slug": "UCR_Animation",
+  "title": "UCR_Animation",
+  "summaryHTML": "<h2>Overview</h2>\n<p>The animation of one day at UCR. This project was a competition pursuit.</p>\n",
+  "content": [
+    {
+      "type": "iframe",
+      "src": "https://www.youtube-nocookie.com/embed/R43Vgpch7y0",
+      "title": "UCR Animation",
+      "caption": "One day at UCR"
+    }
+  ]
+}
