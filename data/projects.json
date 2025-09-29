@@ -45,6 +45,15 @@
     "order": 50
   },
   {
+    "slug": "LifeOfMuqarnas_UMPRUM",
+    "title": "LifeOfMuqarnas_UMPRUM",
+    "thumb": "projects/LifeOfMuqarnas_UMPRUM/media/muqarnas_cover.jpg",
+    "externalUrl": null,
+    "hidden": false,
+    "category": "ArchViz, Animation",
+    "order": 110
+  },
+  {
     "slug": "ObstacleTheory_UCLA",
     "title": "ObstacleTheory_UCLA",
     "thumb": "projects/ObstacleTheory_UCLA/media/obstacletheory_cover.jpg",
