@@ -1,0 +1,41 @@
+{
+  "slug": "ArtificialNature_UMPRUM",
+  "title": "ArtificialNature_UMPRUM",
+  "summaryHTML": "<h2>Overview</h2>\n<p><strong>Architecture without people.</strong></p>\n<p><em>Artificial Nature</em> is a Data Center that collaborates with the city both physically and conceptually.</p>\n<p>It’s a scene of future technology. A monument one can touch, climb, populate and inhabit. A park where one can walk, run, relax, play, hold parties and events. A living mechanism that grows as the need grows.</p>\n<p>It’s a battlefield between the need for nature and technology, an open poll where people can decide how they want their future to be like.<br>\n“The more outdoor activities you have, The fewer data storage you’ll need.”</p>\n<p>Shervin Peyghambari, Frida Block.<br>\nUMPRUM, Imrich Vaško studio, Spring 2019</p>\n",
+  "content": [
+    {
+      "type": "iframe",
+      "src": "https://www.youtube-nocookie.com/embed/VgKds-wcFaY?autoplay=1&mute=1&playsinline=1",
+      "title": "Artificial Nature in action",
+      "caption": "artificial nature in action"
+    },
+    {
+      "type": "image",
+      "src": "projects/ArtificialNature_UMPRUM/media/image1.jpg",
+      "alt": "overview",
+      "caption": "overview"
+    },
+    {
+      "type": "image",
+      "src": "projects/ArtificialNature_UMPRUM/media/image2.jpg",
+      "alt": "diagrams",
+      "caption": "diagrams"
+    },
+    {
+      "type": "image",
+      "src": "projects/ArtificialNature_UMPRUM/media/image3.jpg",
+      "alt": "diagrams",
+      "caption": "diagrams"
+    },
+    {
+      "type": "image",
+      "src": "projects/ArtificialNature_UMPRUM/media/image4.jpg",
+      "alt": "diagrams",
+      "caption": "diagrams"
+    }
+  ],
+  "thumb": "projects/ArtificialNature_UMPRUM/media/artificialnature_cover.jpg",
+  "hidden": false,
+  "category": "ArchViz, Animation",
+  "order": 100
+}

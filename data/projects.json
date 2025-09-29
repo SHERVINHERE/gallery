@@ -9,6 +9,15 @@
     "order": 70
   },
   {
+    "slug": "ArtificialNature_UMPRUM",
+    "title": "ArtificialNature_UMPRUM",
+    "thumb": "projects/ArtificialNature_UMPRUM/media/artificialnature_cover.jpg",
+    "externalUrl": null,
+    "hidden": false,
+    "category": "ArchViz, Animation",
+    "order": 100
+  },
+  {
     "slug": "Autonomous_Wall",
     "title": "Autonomous_Wall",
     "thumb": "projects/Autonomous_Wall/media/dwall_cover.jpg",
