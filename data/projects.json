@@ -76,6 +76,7 @@
     "thumb": "projects/UCR_Animation/media/UCR_cover.jpg",
     "externalUrl": null,
     "hidden": false,
-    "category": "ArchViz, Animation"
+    "category": "ArchViz, Animation",
+    "order": 60
   }
 ]
