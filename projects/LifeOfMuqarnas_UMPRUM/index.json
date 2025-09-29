@@ -4,6 +4,12 @@
   "summaryHTML": "<h2>Overview</h2>\n<p><strong>Life of Muqarnas</strong></p>\n<p>Breathing new life into muqarnas by transforming it into a spatial experience and an adaptable form of growth, creating a space that one can inhabit, rather than just an unreachable decorative element.</p>\n<p>Concept Design of Residential Complex in Estonia</p>\n<p>at UMPRUM, Imrich Vaško studio</p>\n",
   "content": [
     {
+      "type": "iframe",
+      "src": "https://youtube.com/embed/mP0-gRYLGIk?autoplay=1&mute=1&playsinline=1",
+      "title": "Life of Muqarnas",
+      "caption": "life of muqarnas in action"
+    },
+    {
       "type": "image",
       "src": "projects/LifeOfMuqarnas_UMPRUM/media/image1.jpg",
       "alt": "overview",
