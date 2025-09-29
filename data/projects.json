@@ -48,7 +48,8 @@
     "thumb": "projects/PhaseExplorer_WebApp/media/PhaseExplorer_cover.jpg",
     "externalUrl": null,
     "hidden": false,
-    "category": "Web, Interactive, Unity, Architecture Tech"
+    "category": "Web, Interactive, Unity, Architecture Tech",
+    "order": 30
   },
   {
     "slug": "Providence_Animation",
