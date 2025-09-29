@@ -87,5 +87,9 @@
       "title": "Agent based simulation in action",
       "caption": "agent based simulation in action"
     }
-  ]
+  ],
+  "thumb": "projects/ObstacleTheory_UCLA/media/obstacletheory_cover.jpg",
+  "hidden": false,
+  "category": "Animation",
+  "order": 12
 }

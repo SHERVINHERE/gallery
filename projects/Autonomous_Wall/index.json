@@ -9,5 +9,9 @@
       "title": "D-Wall: Autonomous Space Arrangements",
       "caption": "D-Wall: Autonomous Space Arrangements"
     }
-  ]
+  ],
+  "thumb": "projects/Autonomous_Wall/media/dwall_cover.jpg",
+  "hidden": false,
+  "category": "DigitalFabrication",
+  "order": 8
 }

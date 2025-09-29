@@ -9,5 +9,9 @@
       "title": "Playable Architecture at AIA LA",
       "caption": "PlayableArchitecture at AIA LA"
     }
-  ]
+  ],
+  "thumb": "projects/Talk_AIA_LA/media/aiala_cover.jpg",
+  "hidden": false,
+  "category": "Talks",
+  "order": 4
 }

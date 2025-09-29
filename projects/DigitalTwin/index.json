@@ -21,5 +21,8 @@
       "title": "DigitalTwin – Version 3: Live Data",
       "caption": "Version 3: Live Data"
     }
-  ]
+  ],
+  "thumb": "projects/DigitalTwin/media/DigitalTwin_cover.jpg",
+  "hidden": false,
+  "category": "Digital Twin, Interactive"
 }

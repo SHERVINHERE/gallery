@@ -3,54 +3,76 @@
     "slug": "ASCOT_Visualizations",
     "title": "ASCOT_Visualizations",
     "thumb": "projects/ASCOT_Visualizations/media/ASCOT_cover.jpg",
-    "externalUrl": null
+    "externalUrl": null,
+    "hidden": false,
+    "category": "ArchViz, Animation, Wayfinding"
   },
   {
     "slug": "Autonomous_Wall",
     "title": "Autonomous_Wall",
     "thumb": "projects/Autonomous_Wall/media/dwall_cover.jpg",
-    "externalUrl": null
+    "externalUrl": null,
+    "hidden": false,
+    "category": "DigitalFabrication",
+    "order": 8
   },
   {
     "slug": "CPHS_Interactive",
     "title": "CPHS_Interactive",
     "thumb": "projects/CPHS_Interactive/media/cphs_cover.jpg",
-    "externalUrl": null
+    "externalUrl": null,
+    "hidden": false,
+    "category": "Interactive",
+    "order": 5
   },
   {
     "slug": "DigitalTwin",
     "title": "DigitalTwin",
     "thumb": "projects/DigitalTwin/media/DigitalTwin_cover.jpg",
-    "externalUrl": null
+    "externalUrl": null,
+    "hidden": false,
+    "category": "Digital Twin, Interactive"
   },
   {
     "slug": "ObstacleTheory_UCLA",
     "title": "ObstacleTheory_UCLA",
     "thumb": "projects/ObstacleTheory_UCLA/media/obstacletheory_cover.jpg",
-    "externalUrl": null
+    "externalUrl": null,
+    "hidden": false,
+    "category": "Animation",
+    "order": 12
   },
   {
     "slug": "PhaseExplorer_WebApp",
     "title": "PhaseExplorer_WebApp",
     "thumb": "projects/PhaseExplorer_WebApp/media/PhaseExplorer_cover.jpg",
-    "externalUrl": null
+    "externalUrl": null,
+    "hidden": false,
+    "category": "Web, Interactive, Unity, Architecture Tech"
   },
   {
     "slug": "Providence_Animation",
     "title": "Providence_Animation",
     "thumb": "projects/Providence_Animation/media/Providence_cover.jpg",
-    "externalUrl": null
+    "externalUrl": null,
+    "hidden": false,
+    "category": "architectural animation, archviz animation, using unreal engine, unreal engine animation"
   },
   {
     "slug": "Talk_AIA_LA",
     "title": "Talk_AIA_LA",
     "thumb": "projects/Talk_AIA_LA/media/aiala_cover.jpg",
-    "externalUrl": null
+    "externalUrl": null,
+    "hidden": false,
+    "category": "Talks",
+    "order": 4
   },
   {
     "slug": "UCR_Animation",
     "title": "UCR_Animation",
     "thumb": "projects/UCR_Animation/media/UCR_cover.jpg",
-    "externalUrl": null
+    "externalUrl": null,
+    "hidden": false,
+    "category": "ArchViz, Animation"
   }
 ]

@@ -9,5 +9,8 @@
       "title": "UCR Animation",
       "caption": "One day at UCR"
     }
-  ]
+  ],
+  "thumb": "projects/UCR_Animation/media/UCR_cover.jpg",
+  "hidden": false,
+  "category": "ArchViz, Animation"
 }

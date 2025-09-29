@@ -45,5 +45,8 @@
       "alt": "the arrival",
       "caption": "the drop off"
     }
-  ]
+  ],
+  "thumb": "projects/Providence_Animation/media/Providence_cover.jpg",
+  "hidden": false,
+  "category": "architectural animation, archviz animation, using unreal engine, unreal engine animation"
 }
