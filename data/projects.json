@@ -31,7 +31,8 @@
     "thumb": "projects/DigitalTwin/media/DigitalTwin_cover.jpg",
     "externalUrl": null,
     "hidden": false,
-    "category": "Digital Twin, Interactive"
+    "category": "Digital Twin, Interactive",
+    "order": 50
   },
   {
     "slug": "ObstacleTheory_UCLA",

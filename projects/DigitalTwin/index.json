@@ -24,5 +24,6 @@
   ],
   "thumb": "projects/DigitalTwin/media/DigitalTwin_cover.jpg",
   "hidden": false,
-  "category": "Digital Twin, Interactive"
+  "category": "Digital Twin, Interactive",
+  "order": 50
 }
