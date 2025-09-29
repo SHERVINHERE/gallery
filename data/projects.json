@@ -15,7 +15,7 @@
     "externalUrl": null,
     "hidden": false,
     "category": "DigitalFabrication",
-    "order": 8
+    "order": 80
   },
   {
     "slug": "CPHS_Interactive",
@@ -42,7 +42,7 @@
     "externalUrl": null,
     "hidden": false,
     "category": "Animation",
-    "order": 12
+    "order": 90
   },
   {
     "slug": "PhaseExplorer_WebApp",
