@@ -1,7 +1,7 @@
 [
   {
     "type": "iframe",
-    "src": "https://www.youtube-nocookie.com/embed/EUVyweRLkVk",
+    "src": "https://www.youtube-nocookie.com/embed/EUVyweRLkVk?autoplay=1&mute=1&playsinline=1",
     "title": "PhaseExplorer WebApp Demo",
     "caption": "Screen recording of the App"
   }
