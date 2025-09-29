@@ -1,5 +1,11 @@
 [
   {
+    "type": "iframe",
+    "src": "https://youtube.com/embed/mP0-gRYLGIk?autoplay=1&mute=1&playsinline=1",
+    "title": "Life of Muqarnas",
+    "caption": "life of muqarnas in action"
+  },
+  {
     "type": "image",
     "src": "projects/LifeOfMuqarnas_UMPRUM/media/image1.jpg",
     "alt": "overview",
