@@ -1,4 +1,6 @@
 {
   "title": "CPHS_Interactive",
   "thumb": "media/cphs_cover.jpg"
+  "category": "Interactive", "ArchViz", "Animation"
+  "order": 5
 }
