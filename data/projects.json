@@ -5,7 +5,8 @@
     "thumb": "projects/ASCOT_Visualizations/media/ASCOT_cover.jpg",
     "externalUrl": null,
     "hidden": false,
-    "category": "ArchViz, Animation, Wayfinding"
+    "category": "ArchViz, Animation, Wayfinding",
+    "order": 70
   },
   {
     "slug": "Autonomous_Wall",
