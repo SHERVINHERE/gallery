@@ -2,5 +2,6 @@
   "title": "UCR_Animation",
   "thumb": "media/UCR_cover.jpg",
   "hidden": false,
-  "category": "ArchViz, Animation"
+  "category": "ArchViz, Animation",
+  "order": 60
 }
