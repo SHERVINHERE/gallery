@@ -1,0 +1,91 @@
+{
+  "slug": "ObstacleTheory_UCLA",
+  "title": "ObstacleTheory_UCLA",
+  "summaryHTML": "<h2>Overview</h2>\n<p><strong>Obstacle Theory at UCLA AUD, IDEAS</strong><br>\nGreg Lynn studio</p>\n<p>They have employed lanes to separate different modes of mobility, yet separation itself is not the true objective. Rather, it is a strategy to make movement more predictable in terms of direction and speed. However, this approach inevitably sacrifices the beauty of coexistence, the richness of multiple modes sharing a single surface, in favor of safety.</p>\n<p>If we cannot scale the environment down to a human dimension, then the essential principle must be to slow all movement to the pace of the pedestrian. To achieve this, we can introduce subtle obstacles along the way, ensuring that nothing moves faster than the human body in motion. At the same time, these obstacles can serve as filters, allowing certain modes of transportation to pass based on their size—what fits continues, and what does not is gently excluded.</p>\n",
+  "content": [
+    {
+      "type": "image",
+      "src": "projects/ObstacleTheory_UCLA/media/obgif.gif",
+      "alt": "Obstacles in each level",
+      "caption": "obstacles in each level"
+    },
+    {
+      "type": "image",
+      "src": "projects/ObstacleTheory_UCLA/media/image1.jpg",
+      "alt": "levels diagram",
+      "caption": "obstacle theory: levels diagram"
+    },
+    {
+      "type": "image",
+      "src": "projects/ObstacleTheory_UCLA/media/image2.jpg",
+      "alt": "overview",
+      "caption": "obstacle theory: overview"
+    },
+    {
+      "type": "iframe",
+      "src": "https://www.youtube-nocookie.com/embed/wCSyR6gl2ZA?autoplay=1&mute=1&playsinline=1",
+      "title": "Obstacle theory in action",
+      "caption": "obstacle theory in action"
+    },
+    {
+      "type": "image",
+      "src": "projects/ObstacleTheory_UCLA/media/image3.jpg",
+      "alt": "overview",
+      "caption": "obstacle theory: overview"
+    },
+    {
+      "type": "image",
+      "src": "projects/ObstacleTheory_UCLA/media/image4.jpg",
+      "alt": "elevation",
+      "caption": "obstacle theory: elevation"
+    },
+    {
+      "type": "image",
+      "src": "projects/ObstacleTheory_UCLA/media/image9.jpg",
+      "alt": "top view",
+      "caption": "obstacle theory: top view"
+    },
+    {
+      "type": "iframe",
+      "src": "https://player.vimeo.com/video/443206460?badge=0&autopause=0&player_id=0&app_id=58479",
+      "title": "Obstacle Theory - Obstacle Tree",
+      "caption": "obstacle theory: agent based simulation"
+    },
+    {
+      "type": "image",
+      "src": "projects/ObstacleTheory_UCLA/media/image5.jpg",
+      "alt": "mobility hub",
+      "caption": "mobility hub, based on obstacle theory"
+    },
+    {
+      "type": "image",
+      "src": "projects/ObstacleTheory_UCLA/media/image6.jpg",
+      "alt": "mobility hub overview",
+      "caption": "mobility hub, overview"
+    },
+    {
+      "type": "iframe",
+      "src": "https://www.youtube-nocookie.com/embed/JXLe2rkfIvg",
+      "title": "Mobility hub in action",
+      "caption": "mobility hub in action"
+    },
+    {
+      "type": "image",
+      "src": "projects/ObstacleTheory_UCLA/media/image7.jpg",
+      "alt": "human eye",
+      "caption": "mobility hub, human eye"
+    },
+    {
+      "type": "image",
+      "src": "projects/ObstacleTheory_UCLA/media/image8.jpg",
+      "alt": "agent based simulation",
+      "caption": "agent based simulation"
+    },
+    {
+      "type": "iframe",
+      "src": "https://www.youtube-nocookie.com/embed/S_bQwQ9gR8c",
+      "title": "Agent based simulation in action",
+      "caption": "agent based simulation in action"
+    }
+  ]
+}
