@@ -40,6 +40,12 @@
       "caption": "the llama community"
     },
     {
+      "type": "image",
+      "src": "projects/Burningman_Art/media/image7.jpg",
+      "alt": "top view",
+      "caption": "google map view"
+    },
+    {
       "type": "iframe",
       "src": "https://www.youtube-nocookie.com/embed/TGqz-xSg_OI?autoplay=1&mute=1&playsinline=1",
       "title": "walkthrough the camp",
