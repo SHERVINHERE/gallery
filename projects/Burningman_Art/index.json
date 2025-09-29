@@ -1,0 +1,53 @@
+{
+  "slug": "Burningman_Art",
+  "title": "Burningman_Art",
+  "summaryHTML": "<h2>Overview</h2>\n<p>A digitally fabricated Llama, art piece at Burningman 2024.</p>\n<p>Along with images of Cosmic Llama camp build 2024 and 2025.</p>\n",
+  "content": [
+    {
+      "type": "image",
+      "src": "projects/Burningman_Art/media/image1.jpg",
+      "alt": "the llama, night",
+      "caption": "the llama, night"
+    },
+    {
+      "type": "image",
+      "src": "projects/Burningman_Art/media/image2.jpg",
+      "alt": "the llama, day",
+      "caption": "the llama, day"
+    },
+    {
+      "type": "image",
+      "src": "projects/Burningman_Art/media/image3.jpg",
+      "alt": "camp 2024",
+      "caption": "camp 2024"
+    },
+    {
+      "type": "image",
+      "src": "projects/Burningman_Art/media/image4.jpg",
+      "alt": "camp 2024",
+      "caption": "camp 2024"
+    },
+    {
+      "type": "image",
+      "src": "projects/Burningman_Art/media/image5.jpg",
+      "alt": "build 2024",
+      "caption": "build 2024"
+    },
+    {
+      "type": "image",
+      "src": "projects/Burningman_Art/media/image6.jpg",
+      "alt": "the llama community",
+      "caption": "the llama community"
+    },
+    {
+      "type": "iframe",
+      "src": "https://www.youtube-nocookie.com/embed/TGqz-xSg_OI?autoplay=1&mute=1&playsinline=1",
+      "title": "walkthrough the camp",
+      "caption": "walkthrough the camp"
+    }
+  ],
+  "thumb": "projects/Burningman_Art/media/bm_cover.jpg",
+  "hidden": false,
+  "category": "Art",
+  "order": 130
+}

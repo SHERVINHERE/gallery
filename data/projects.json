@@ -27,6 +27,15 @@
     "order": 80
   },
   {
+    "slug": "Burningman_Art",
+    "title": "Burningman_Art",
+    "thumb": "projects/Burningman_Art/media/bm_cover.jpg",
+    "externalUrl": null,
+    "hidden": false,
+    "category": "Art",
+    "order": 130
+  },
+  {
     "slug": "CPHS_Interactive",
     "title": "CPHS_Interactive",
     "thumb": "projects/CPHS_Interactive/media/cphs_cover.jpg",
