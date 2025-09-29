@@ -1,0 +1,26 @@
+[
+  {
+    "type": "image",
+    "src": "projects/LifeOfMuqarnas_UMPRUM/media/image1.jpg",
+    "alt": "overview",
+    "caption": "overview"
+  },
+  {
+    "type": "image",
+    "src": "projects/LifeOfMuqarnas_UMPRUM/media/image2.jpg",
+    "alt": "form",
+    "caption": "form"
+  },
+  {
+    "type": "image",
+    "src": "projects/LifeOfMuqarnas_UMPRUM/media/image3.jpg",
+    "alt": "diagram",
+    "caption": "diagram"
+  },
+  {
+    "type": "image",
+    "src": "projects/LifeOfMuqarnas_UMPRUM/media/image4.jpg",
+    "alt": "interior",
+    "caption": "interior"
+  }
+]
