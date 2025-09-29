@@ -20,6 +20,12 @@ async function fileExists(p) {
   try { await fs.stat(p); return true; } catch { return false; }
 }
 
+// Normalize order to a number if possible, otherwise return undefined
+function normalizeOrder(v) {
+  const n = typeof v === 'string' ? Number(v) : v;
+  return Number.isFinite(n) ? n : undefined;
+}
+
 async function build() {
   const entries = await fs.readdir(PROJECTS_DIR, { withFileTypes: true }).catch(() => []);
   const projects = [];
@@ -40,12 +46,16 @@ async function build() {
       continue;
     }
 
-    const meta = JSON.parse(await fs.readFile(metaPath, 'utf8'));
+    // Read/parse meta & summary
+    const metaRaw = await fs.readFile(metaPath, 'utf8');
+    const meta = JSON.parse(metaRaw);
     const summaryHTML = (await fileExists(sumPath)) ? await fs.readFile(sumPath, 'utf8') : '';
 
+    // Load content (explicit content.json or inferred from media/)
     let content = [];
     if (await fileExists(contentPath)) {
-      content = JSON.parse(await fs.readFile(contentPath, 'utf8'));
+      const contentRaw = await fs.readFile(contentPath, 'utf8');
+      content = JSON.parse(contentRaw);
     } else {
       const files = (await fs.readdir(mediaDir).catch(() => []))
         .filter(f => isMedia(f))
@@ -58,18 +68,42 @@ async function build() {
       });
     }
 
-    await fs.writeFile(path.join(projDir, 'index.json'), JSON.stringify({
-      slug,
-      title: meta.title || slug,
-      summaryHTML,
-      content
-    }, null, 2));
+    // Normalize passthrough fields
+    const order = normalizeOrder(meta.order);
+    const hidden = Boolean(meta.hidden);
+    const category = meta.category ?? null;
 
+    // Per-project manifest (index.json)
+    await fs.writeFile(
+      path.join(projDir, 'index.json'),
+      JSON.stringify(
+        {
+          slug,
+          title: meta.title || slug,
+          summaryHTML,
+          content,
+          // keep useful meta on detail page too
+          thumb: meta.thumb ? path.posix.join('projects', slug, meta.thumb) : (content[0]?.src || null),
+          hidden,
+          category,
+          ...(order !== undefined ? { order } : {})
+        },
+        null,
+        2
+      )
+    );
+
+    // Item for data/projects.json (homepage list)
     projects.push({
       slug,
       title: meta.title || slug,
-      thumb: meta.thumb ? path.posix.join('projects', slug, meta.thumb) : (content[0]?.src || 'assets/placeholder.svg'),
-      externalUrl: meta.externalUrl || null
+      thumb: meta.thumb
+        ? path.posix.join('projects', slug, meta.thumb)
+        : (content[0]?.src || 'assets/placeholder.svg'),
+      externalUrl: meta.externalUrl || null,
+      hidden,
+      category,
+      ...(order !== undefined ? { order } : {})
     });
   }
 
