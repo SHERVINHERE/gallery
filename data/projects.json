@@ -57,7 +57,8 @@
     "thumb": "projects/Providence_Animation/media/Providence_cover.jpg",
     "externalUrl": null,
     "hidden": false,
-    "category": "architectural animation, archviz animation, using unreal engine, unreal engine animation"
+    "category": "architectural animation, archviz animation, using unreal engine, unreal engine animation",
+    "order": 40
   },
   {
     "slug": "Talk_AIA_LA",
