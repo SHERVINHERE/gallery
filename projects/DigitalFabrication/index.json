@@ -1,0 +1,71 @@
+{
+  "slug": "DigitalFabrication",
+  "title": "DigitalFabrication",
+  "summaryHTML": "<h2>Overview</h2>\n<p>Designed and produced intricate art pieces utilizing computational design and digital fabrication techniques to bring innovations to life through culturally rooted, technologically advanced craftsmanship.</p>\n",
+  "content": [
+    {
+      "type": "image",
+      "src": "projects/DigitalFabrication/media/image1.jpg",
+      "alt": "custom lighting",
+      "caption": "custom lighting"
+    },
+    {
+      "type": "image",
+      "src": "projects/DigitalFabrication/media/image2.jpg",
+      "alt": "close up",
+      "caption": "close up"
+    },
+    {
+      "type": "image",
+      "src": "projects/DigitalFabrication/media/image3.jpg",
+      "alt": "wall covering",
+      "caption": "wall covering"
+    },
+    {
+      "type": "image",
+      "src": "projects/DigitalFabrication/media/image4.jpg",
+      "alt": "office overview",
+      "caption": "offce overview"
+    },
+    {
+      "type": "iframe",
+      "src": "https://player.vimeo.com/video/302318428",
+      "title": "Animation of the design",
+      "caption": "animation of the design"
+    },
+    {
+      "type": "image",
+      "src": "projects/DigitalFabrication/media/image5.jpg",
+      "alt": "parviz lighting",
+      "caption": "parviz lighting"
+    },
+    {
+      "type": "image",
+      "src": "projects/DigitalFabrication/media/image6.jpg",
+      "alt": "atmosphere lighting",
+      "caption": "atmosphere lighting"
+    },
+    {
+      "type": "image",
+      "src": "projects/DigitalFabrication/media/image7.jpg",
+      "alt": "amplifier, infinity lighting",
+      "caption": "amplifier, infinity lighting"
+    },
+    {
+      "type": "image",
+      "src": "projects/DigitalFabrication/media/digifabgif.gif",
+      "alt": "shadow of muqarnas",
+      "caption": "shadow of muqarnas"
+    },
+    {
+      "type": "image",
+      "src": "projects/DigitalFabrication/media/image11.jpg",
+      "alt": "shadow of muqarnas, art exhibition at UMPRUM, Prague, CZ.",
+      "caption": "shadow of muqarnas, art exhibition at UMPRUM, Prague, CZ."
+    }
+  ],
+  "thumb": "projects/DigitalFabrication/media/digifab_cover.jpg",
+  "hidden": false,
+  "category": "DigitalFabrication, Art",
+  "order": 120
+}

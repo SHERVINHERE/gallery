@@ -36,6 +36,15 @@
     "order": 20
   },
   {
+    "slug": "DigitalFabrication",
+    "title": "DigitalFabrication",
+    "thumb": "projects/DigitalFabrication/media/digifab_cover.jpg",
+    "externalUrl": null,
+    "hidden": false,
+    "category": "DigitalFabrication, Art",
+    "order": 120
+  },
+  {
     "slug": "DigitalTwin",
     "title": "DigitalTwin",
     "thumb": "projects/DigitalTwin/media/DigitalTwin_cover.jpg",
