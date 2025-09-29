@@ -6,11 +6,27 @@ async function load() {
   try {
     const res = await fetch('data/projects.json', { cache: 'no-store' });
     projects = await res.json();
+    if (!Array.isArray(projects)) projects = [];
   } catch (err) {
     console.error('Failed to load projects.json', err);
     grid.innerHTML = '<p style="color:#f88">Failed to load projects list.</p>';
     return;
   }
+
+  // --- NEW: sort by "order" (ascending). Missing/invalid order -> bottom (9999). Tie-breaker: title/slug A→Z.
+  const normOrder = (v) => {
+    const n = typeof v === 'string' ? parseFloat(v) : v;
+    return Number.isFinite(n) ? n : 9999;
+  };
+  projects.sort((a, b) => {
+    const ao = normOrder(a.order);
+    const bo = normOrder(b.order);
+    if (ao !== bo) return ao - bo;
+    const at = (a.title || a.slug || '').toString();
+    const bt = (b.title || b.slug || '').toString();
+    return at.localeCompare(bt, undefined, { sensitivity: 'base' });
+  });
+  // --- END NEW
 
   projects.forEach(p => {
     const a = cardTmpl.content.firstElementChild.cloneNode(true);
@@ -23,8 +39,10 @@ async function load() {
       a.href = `project.html?slug=${encodeURIComponent(p.slug)}`;
     }
 
-    a.querySelector('img').src = p.thumb || 'assets/placeholder.svg';
-    a.querySelector('img').alt = p.title || p.slug;
+    const img = a.querySelector('img');
+    img.src = p.thumb || 'assets/placeholder.svg';
+    img.alt = p.title || p.slug;
+
     a.querySelector('.card-title').textContent = p.title || p.slug;
     grid.appendChild(a);
   });
