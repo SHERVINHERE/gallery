@@ -32,6 +32,12 @@
       "src": "projects/ArtificialNature_UMPRUM/media/image4.jpg",
       "alt": "diagrams",
       "caption": "diagrams"
+    },
+    {
+      "type": "iframe",
+      "src": "https://player.vimeo.com/video/724944533",
+      "title": "party at artificial nature",
+      "caption": "party at artificial nature"
     }
   ],
   "thumb": "projects/ArtificialNature_UMPRUM/media/artificialnature_cover.jpg",
