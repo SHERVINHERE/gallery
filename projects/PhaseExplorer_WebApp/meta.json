@@ -2,5 +2,6 @@
   "title": "PhaseExplorer_WebApp",
   "thumb": "media/PhaseExplorer_cover.jpg",
   "hidden": false,
-  "category": "Web, Interactive, Unity, Architecture Tech"
+  "category": "Web, Interactive, Unity, Architecture Tech",
+  "order": 30
 }
