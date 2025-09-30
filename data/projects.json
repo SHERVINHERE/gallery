@@ -126,6 +126,15 @@
     "order": 40
   },
   {
+    "slug": "Publications",
+    "title": "Publications",
+    "thumb": "projects/Publications/media/publications_cover.jpg",
+    "externalUrl": null,
+    "hidden": false,
+    "category": "Publication",
+    "order": 65
+  },
+  {
     "slug": "Talk_AIA_LA",
     "title": "Talk_AIA_LA",
     "thumb": "projects/Talk_AIA_LA/media/aiala_cover.jpg",
