@@ -1,0 +1,38 @@
+[
+  {
+    "type": "iframe",
+    "src": "https://www.youtube-nocookie.com/embed/G_IRZjLYCZw?autoplay=1&mute=1&playsinline=1",
+    "title": "city environment design",
+    "caption": "city environment design"
+  },
+  {
+    "type": "iframe",
+    "src": "https://www.youtube-nocookie.com/embed/krG5JQr_LVg?autoplay=1&mute=1&playsinline=1",
+    "title": "metadata extraction",
+    "caption": "metadata extraction"
+  },
+  {
+    "type": "iframe",
+    "src": "https://www.youtube-nocookie.com/embed/02o8_xU7dGI?autoplay=1&mute=1&playsinline=1",
+    "title": "Animating The Environment and Elements",
+    "caption": "Animating The Environment and Elements"
+  },
+  {
+    "type": "iframe",
+    "src": "https://www.youtube-nocookie.com/embed/47jgUzW9rYI?autoplay=1&mute=1&playsinline=1",
+    "title": "Interaction With The Environment",
+    "caption": "Interaction With The Environment"
+  },
+  {
+    "type": "iframe",
+    "src": "https://www.youtube-nocookie.com/embed/Zc4UsEpxzc4?autoplay=1&mute=1&playsinline=1",
+    "title": "Smart Asset Creation and Display",
+    "caption": "Smart Asset Creation and Display"
+  },
+  {
+    "type": "iframe",
+    "src": "https://www.youtube-nocookie.com/embed/5R3Ku2A2olk?autoplay=1&mute=1&playsinline=1",
+    "title": "Weather Control",
+    "caption": "Weather Control"
+  }
+]
