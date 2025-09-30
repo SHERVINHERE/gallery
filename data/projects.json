@@ -169,5 +169,14 @@
     "hidden": false,
     "category": "ArchViz, Animation",
     "order": 60
+  },
+  {
+    "slug": "UnrealEngine",
+    "title": "UnrealEngine",
+    "thumb": "projects/UnrealEngine/media/UE_cover.jpg",
+    "externalUrl": null,
+    "hidden": false,
+    "category": "Interactive, ArchViz",
+    "order": 68
   }
 ]
