@@ -1,0 +1,29 @@
+{
+  "slug": "PartyScene",
+  "title": "PartyScene",
+  "summaryHTML": "<h2>Overview</h2>\n<p>the perfect party place design and animated</p>\n",
+  "content": [
+    {
+      "type": "iframe",
+      "src": "https://www.youtube-nocookie.com/embed/OEJTHO3ywbM",
+      "title": "video 1",
+      "caption": "video 1"
+    },
+    {
+      "type": "iframe",
+      "src": "https://www.youtube-nocookie.com/embed/i06U-jX6-2Q",
+      "title": "video 2",
+      "caption": "video 2"
+    },
+    {
+      "type": "iframe",
+      "src": "https://player.vimeo.com/video/443167639",
+      "title": "how it works",
+      "caption": "how it works"
+    }
+  ],
+  "thumb": "projects/PartyScene/media/party_cover.jpg",
+  "hidden": false,
+  "category": "ArchViz, Art",
+  "order": 130
+}

@@ -90,6 +90,15 @@
     "order": 90
   },
   {
+    "slug": "PartyScene",
+    "title": "PartyScene",
+    "thumb": "projects/PartyScene/media/party_cover.jpg",
+    "externalUrl": null,
+    "hidden": false,
+    "category": "ArchViz, Art",
+    "order": 130
+  },
+  {
     "slug": "PhaseExplorer_WebApp",
     "title": "PhaseExplorer_WebApp",
     "thumb": "projects/PhaseExplorer_WebApp/media/PhaseExplorer_cover.jpg",
