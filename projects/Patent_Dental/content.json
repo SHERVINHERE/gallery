@@ -1,0 +1,44 @@
+[
+  {
+    "type": "image",
+    "src": "projects/Patent_Dental/media/AB.jpg",
+    "alt": "isometric",
+    "caption": "AB - isometric"
+  },
+  {
+    "type": "image",
+    "src": "projects/Patent_Dental/media/CD.jpg",
+    "alt": "iso and top",
+    "caption": "CD - iso and top"
+  },
+  {
+    "type": "image",
+    "src": "projects/Patent_Dental/media/EF.jpg",
+    "alt": "side and front",
+    "caption": "EF - side and front"
+  },
+  {
+    "type": "image",
+    "src": "projects/Patent_Dental/media/GH.jpg",
+    "alt": "arm piece",
+    "caption": "GH - arm piece"
+  },
+  {
+    "type": "image",
+    "src": "projects/Patent_Dental/media/IJ.jpg",
+    "alt": "blade mount",
+    "caption": "IJ - blade mount"
+  },
+  {
+    "type": "image",
+    "src": "projects/Patent_Dental/media/KL.jpg",
+    "alt": "mount",
+    "caption": "KL - mount"
+  },
+  {
+    "type": "image",
+    "src": "projects/Patent_Dental/media/MN.jpg",
+    "alt": "screw and blade",
+    "caption": "MN - screw and blade"
+  }
+]
