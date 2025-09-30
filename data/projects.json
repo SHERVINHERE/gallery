@@ -99,6 +99,15 @@
     "order": 130
   },
   {
+    "slug": "Patent_Dental",
+    "title": "Patent_Dental",
+    "thumb": "projects/Patent_Dental/media/dental_cover.jpg",
+    "externalUrl": null,
+    "hidden": false,
+    "category": "Patent, Invention",
+    "order": 72
+  },
+  {
     "slug": "PhaseExplorer_WebApp",
     "title": "PhaseExplorer_WebApp",
     "thumb": "projects/PhaseExplorer_WebApp/media/PhaseExplorer_cover.jpg",
