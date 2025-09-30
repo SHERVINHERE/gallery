@@ -1,0 +1,53 @@
+{
+  "slug": "Mosque_Iran",
+  "title": "Mosque_Iran",
+  "summaryHTML": "<h2>Overview</h2>\n<p>Mosque designed and built during my work experience in Iran.</p>\n<p><strong>72 Tan Mosque</strong> – <a href=\"https://share.google/U6C9mmVnufAL0hCOg\" target=\"_blank\" rel=\"noopener\">Project link</a><br>\nAlready built, its significance lies in the reincarnation of traditional ornaments within a new concept and contemporary form.</p>\n<p><strong>Yaas Mosque</strong> – Designed as part of a competition entry.</p>\n",
+  "content": [
+    {
+      "type": "image",
+      "src": "projects/Mosque_Iran/media/image1.jpg",
+      "alt": "rendering vs reality",
+      "caption": "rendering vs reality"
+    },
+    {
+      "type": "image",
+      "src": "projects/Mosque_Iran/media/image2.jpg",
+      "alt": "rendering vs reality",
+      "caption": "rendering vs reality"
+    },
+    {
+      "type": "image",
+      "src": "projects/Mosque_Iran/media/image3.jpg",
+      "alt": "ornaments diagrams",
+      "caption": "ornaments diagrams"
+    },
+    {
+      "type": "image",
+      "src": "projects/Mosque_Iran/media/image4.jpg",
+      "alt": "interior as built",
+      "caption": "interior as built"
+    },
+    {
+      "type": "image",
+      "src": "projects/Mosque_Iran/media/image5.jpg",
+      "alt": "Yaas mosque",
+      "caption": "Yaas mosque"
+    },
+    {
+      "type": "image",
+      "src": "projects/Mosque_Iran/media/image6.jpg",
+      "alt": "Yass mosque",
+      "caption": "Yass mosque"
+    },
+    {
+      "type": "iframe",
+      "src": "https://www.youtube-nocookie.com/embed/0WgnvSd-UOU",
+      "title": "Yaas Mosque animation",
+      "caption": "Yaas Mosque animation"
+    }
+  ],
+  "thumb": "projects/Mosque_Iran/media/mosque_cover.jpg",
+  "hidden": false,
+  "category": "ArchViz",
+  "order": 130
+}

@@ -72,6 +72,15 @@
     "order": 110
   },
   {
+    "slug": "Mosque_Iran",
+    "title": "Mosque_Iran",
+    "thumb": "projects/Mosque_Iran/media/mosque_cover.jpg",
+    "externalUrl": null,
+    "hidden": false,
+    "category": "ArchViz",
+    "order": 130
+  },
+  {
     "slug": "ObstacleTheory_UCLA",
     "title": "ObstacleTheory_UCLA",
     "thumb": "projects/ObstacleTheory_UCLA/media/obstacletheory_cover.jpg",
