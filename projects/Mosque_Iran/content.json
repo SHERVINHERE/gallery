@@ -1,0 +1,44 @@
+[
+  {
+    "type": "image",
+    "src": "projects/Mosque_Iran/media/image1.jpg",
+    "alt": "rendering vs reality",
+    "caption": "rendering vs reality"
+  },
+  {
+    "type": "image",
+    "src": "projects/Mosque_Iran/media/image2.jpg",
+    "alt": "rendering vs reality",
+    "caption": "rendering vs reality"
+  },
+  {
+    "type": "image",
+    "src": "projects/Mosque_Iran/media/image3.jpg",
+    "alt": "ornaments diagrams",
+    "caption": "ornaments diagrams"
+  },
+  {
+    "type": "image",
+    "src": "projects/Mosque_Iran/media/image4.jpg",
+    "alt": "interior as built",
+    "caption": "interior as built"
+  },
+  {
+    "type": "image",
+    "src": "projects/Mosque_Iran/media/image5.jpg",
+    "alt": "Yaas mosque",
+    "caption": "Yaas mosque"
+  },
+  {
+    "type": "image",
+    "src": "projects/Mosque_Iran/media/image6.jpg",
+    "alt": "Yass mosque",
+    "caption": "Yass mosque"
+  },
+  {
+    "type": "iframe",
+    "src": "https://www.youtube-nocookie.com/embed/0WgnvSd-UOU",
+    "title": "Yaas Mosque animation",
+    "caption": "Yaas Mosque animation"
+  }
+]
