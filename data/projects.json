@@ -144,6 +144,15 @@
     "order": 10
   },
   {
+    "slug": "Talks_PanelDiscussions",
+    "title": "Talks_PanelDiscussions",
+    "thumb": "projects/Talks_PanelDiscussions/media/talks_cover.jpg",
+    "externalUrl": null,
+    "hidden": false,
+    "category": "Talk",
+    "order": 73
+  },
+  {
     "slug": "UCR_Animation",
     "title": "UCR_Animation",
     "thumb": "projects/UCR_Animation/media/UCR_cover.jpg",
