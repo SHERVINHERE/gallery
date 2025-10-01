@@ -1,0 +1,131 @@
+{
+  "slug": "Archviz",
+  "title": "Archviz",
+  "summaryHTML": "<h2>Overview</h2>\n<p>A collection of archviz images.</p>\n",
+  "content": [
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_1.jpg",
+      "alt": "image_1"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_2.jpg",
+      "alt": "image_2"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_3.jpg",
+      "alt": "image_3"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_4.jpg",
+      "alt": "image_4"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_5.jpg",
+      "alt": "image_5"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_6.jpg",
+      "alt": "image_6"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_7.jpg",
+      "alt": "image_7"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_8.jpg",
+      "alt": "image_8"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_9.jpg",
+      "alt": "image_9"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_10.jpg",
+      "alt": "image_10"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_11.jpg",
+      "alt": "image_11"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_12.jpg",
+      "alt": "image_12"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_13.jpg",
+      "alt": "image_13"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_14.jpg",
+      "alt": "image_14"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_15.jpg",
+      "alt": "image_15"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_16.jpg",
+      "alt": "image_16"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_17.jpg",
+      "alt": "image_17"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_18.jpg",
+      "alt": "image_18"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_19.jpg",
+      "alt": "image_19"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_20.jpg",
+      "alt": "image_20"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_21.jpg",
+      "alt": "image_21"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_22.jpg",
+      "alt": "image_22"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_23.jpg",
+      "alt": "image_23"
+    },
+    {
+      "type": "image",
+      "src": "projects/Archviz/media/image_24.jpg",
+      "alt": "image_24"
+    }
+  ],
+  "thumb": "projects/Archviz/media/archviz_cover.jpg",
+  "hidden": false,
+  "category": "ArchViz",
+  "order": 140
+}

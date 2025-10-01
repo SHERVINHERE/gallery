@@ -18,6 +18,15 @@
     "order": 65
   },
   {
+    "slug": "Archviz",
+    "title": "Archviz",
+    "thumb": "projects/Archviz/media/archviz_cover.jpg",
+    "externalUrl": null,
+    "hidden": false,
+    "category": "ArchViz",
+    "order": 140
+  },
+  {
     "slug": "ArtificialNature_UMPRUM",
     "title": "ArtificialNature_UMPRUM",
     "thumb": "projects/ArtificialNature_UMPRUM/media/artificialnature_cover.jpg",
