@@ -187,5 +187,14 @@
     "hidden": false,
     "category": "Interactive, ArchViz",
     "order": 68
+  },
+  {
+    "slug": "VR_samples",
+    "title": "VR_samples",
+    "thumb": "projects/VR_samples/media/ARVR_cover.jpg",
+    "externalUrl": null,
+    "hidden": false,
+    "category": "Interactive, VR",
+    "order": 55
   }
 ]

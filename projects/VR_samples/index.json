@@ -1,0 +1,26 @@
+{
+  "slug": "VR_samples",
+  "title": "VR_samples",
+  "summaryHTML": "<h2>Overview</h2>\n<p>\n  Examples of how Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR)\n  are applied in architecture include interactive environments where users can explore spaces,\n  collect data, and analyze potential design or construction problems.\n</p>\n",
+  "content": [
+    {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XG06EQ_XRiw?autoplay=1&mute=1&playsinline=1",
+      "caption": "AR in Architecture"
+    },
+    {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/2GCPTzX0iSw?autoplay=1&mute=1&playsinline=1",
+      "caption": "VR in Architecture"
+    },
+    {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/QU-Cig89rqM?autoplay=1&mute=1&playsinline=1",
+      "caption": "XR in Architecture"
+    }
+  ],
+  "thumb": "projects/VR_samples/media/ARVR_cover.jpg",
+  "hidden": false,
+  "category": "Interactive, VR",
+  "order": 55
+}
