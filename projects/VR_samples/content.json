@@ -1,0 +1,17 @@
+[
+  {
+    "type": "iframe",
+    "src": "https://www.youtube.com/embed/XG06EQ_XRiw?autoplay=1&mute=1&playsinline=1",
+    "caption": "AR in Architecture"
+  },
+  {
+    "type": "iframe",
+    "src": "https://www.youtube.com/embed/2GCPTzX0iSw?autoplay=1&mute=1&playsinline=1",
+    "caption": "VR in Architecture"
+  },
+  {
+    "type": "iframe",
+    "src": "https://www.youtube.com/embed/QU-Cig89rqM?autoplay=1&mute=1&playsinline=1",
+    "caption": "XR in Architecture"
+  }
+]
