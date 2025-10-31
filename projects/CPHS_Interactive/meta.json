@@ -2,5 +2,6 @@
   "title": "CPHS_Interactive",
   "thumb": "media/cphs_cover.jpg",
   "category": "Interactive",
-  "order": 20
+  "order": 20,
+  "visible": false
 }
