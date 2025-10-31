@@ -12,6 +12,6 @@
   ],
   "thumb": "projects/UCR_Animation/media/UCR_cover.jpg",
   "category": "ArchViz, Animation",
-  "visible": true,
+  "visible": false,
   "order": 60
 }
