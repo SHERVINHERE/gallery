@@ -126,6 +126,6 @@
   ],
   "thumb": "projects/Archviz/media/archviz_cover.jpg",
   "category": "ArchViz",
-  "visible": true,
+  "visible": false,
   "order": 66
 }

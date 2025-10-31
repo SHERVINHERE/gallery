@@ -23,7 +23,7 @@
     "thumb": "projects/Archviz/media/archviz_cover.jpg",
     "externalUrl": null,
     "category": "ArchViz",
-    "visible": true,
+    "visible": false,
     "order": 66
   },
   {
