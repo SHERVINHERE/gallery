@@ -9,6 +9,7 @@ const DATA_DIR = path.join(ROOT, 'data');
 const IMG_EXTS = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.avif', '.svg'];
 const VID_EXTS = ['.mp4', '.webm', '.ogg', '.mov', '.m4v'];
 
+// ---------- helpers ----------
 function isMedia(file) {
   const ext = path.extname(file).toLowerCase();
   return IMG_EXTS.includes(ext) || VID_EXTS.includes(ext);
@@ -19,12 +20,38 @@ function sortFiles(a, b) {
 async function fileExists(p) {
   try { await fs.stat(p); return true; } catch { return false; }
 }
-
-// Normalize order to a number if possible, otherwise return undefined
+// Normalize order to a number if possible, otherwise undefined
 function normalizeOrder(v) {
   const n = typeof v === 'string' ? Number(v) : v;
   return Number.isFinite(n) ? n : undefined;
 }
+// Parse booleans safely (true/false or "true"/"false"), otherwise undefined
+function toBool(v) {
+  if (typeof v === 'boolean') return v;
+  if (typeof v === 'string') {
+    const s = v.trim().toLowerCase();
+    if (s === 'true') return true;
+    if (s === 'false') return false;
+  }
+  return undefined;
+}
+// Preferred visibility: explicit meta.visible wins; else legacy meta.hidden; else default true
+function computeVisible(meta) {
+  const v = toBool(meta?.visible);
+  if (v !== undefined) return v !== false;      // visible:true|undefined => show; visible:false => hide
+  const h = toBool(meta?.hidden);
+  if (h !== undefined) return h !== true;       // hidden:true => hide; hidden:false|undefined => show
+  return true;                                   // default visible
+}
+// Resolve thumb path: allow absolute/URL; otherwise prefix with projects/<slug>/
+function resolveThumb(slug, metaThumb, firstContentSrc) {
+  if (!metaThumb) return firstContentSrc || null;
+  const t = String(metaThumb);
+  if (t.startsWith('http://') || t.startsWith('https://') || t.startsWith('/')) return t;
+  // keep URLs web-safe regardless of OS
+  return path.posix.join('projects', slug, t);
+}
+// ---------- /helpers ----------
 
 async function build() {
   const entries = await fs.readdir(PROJECTS_DIR, { withFileTypes: true }).catch(() => []);
@@ -70,41 +97,37 @@ async function build() {
 
     // Normalize passthrough fields
     const order = normalizeOrder(meta.order);
-    const hidden = Boolean(meta.hidden);
     const category = meta.category ?? null;
+    const visible = computeVisible(meta); // <-- key addition
 
-    // Per-project manifest (index.json)
-    await fs.writeFile(
-      path.join(projDir, 'index.json'),
-      JSON.stringify(
-        {
-          slug,
-          title: meta.title || slug,
-          summaryHTML,
-          content,
-          // keep useful meta on detail page too
-          thumb: meta.thumb ? path.posix.join('projects', slug, meta.thumb) : (content[0]?.src || null),
-          hidden,
-          category,
-          ...(order !== undefined ? { order } : {})
-        },
-        null,
-        2
-      )
-    );
+    const firstSrc = content[0]?.src || null;
 
-    // Item for data/projects.json (homepage list)
-    projects.push({
+    // Per-project manifest (detail page)
+    const indexJson = {
       slug,
       title: meta.title || slug,
-      thumb: meta.thumb
-        ? path.posix.join('projects', slug, meta.thumb)
-        : (content[0]?.src || 'assets/placeholder.svg'),
-      externalUrl: meta.externalUrl || null,
-      hidden,
+      summaryHTML,
+      content,
+      thumb: resolveThumb(slug, meta.thumb, firstSrc),
       category,
+      visible,                              // <-- include on detail too
       ...(order !== undefined ? { order } : {})
-    });
+      // Note: we intentionally do NOT carry legacy "hidden" forward here
+    };
+    await fs.writeFile(path.join(projDir, 'index.json'), JSON.stringify(indexJson, null, 2));
+
+    // Item for compiled homepage list
+    const listItem = {
+      slug,
+      title: meta.title || slug,
+      thumb: resolveThumb(slug, meta.thumb, firstSrc) || 'assets/placeholder.svg',
+      externalUrl: meta.externalUrl ?? null,
+      category,
+      visible,                              // <-- include visible in data/projects.json
+      ...(order !== undefined ? { order } : {})
+      // legacy "hidden" omitted on purpose; homepage should rely on visible only
+    };
+    projects.push(listItem);
   }
 
   await fs.mkdir(DATA_DIR, { recursive: true });
