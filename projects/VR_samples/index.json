@@ -20,7 +20,7 @@
     }
   ],
   "thumb": "projects/VR_samples/media/ARVR_cover.jpg",
-  "hidden": false,
   "category": "Interactive, VR",
+  "visible": true,
   "order": 55
 }

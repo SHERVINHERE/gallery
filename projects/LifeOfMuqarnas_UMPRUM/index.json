@@ -35,7 +35,7 @@
     }
   ],
   "thumb": "projects/LifeOfMuqarnas_UMPRUM/media/muqarnas_cover.jpg",
-  "hidden": false,
   "category": "ArchViz, Animation",
+  "visible": true,
   "order": 110
 }

@@ -17,7 +17,7 @@
     }
   ],
   "thumb": "projects/Talks_PanelDiscussions/media/talks_cover.jpg",
-  "hidden": false,
   "category": "Talk",
+  "visible": true,
   "order": 73
 }

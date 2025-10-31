@@ -11,7 +11,7 @@
     }
   ],
   "thumb": "projects/Autonomous_Wall/media/dwall_cover.jpg",
-  "hidden": false,
   "category": "DigitalFabrication",
+  "visible": true,
   "order": 80
 }

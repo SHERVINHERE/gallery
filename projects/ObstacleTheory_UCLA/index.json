@@ -89,7 +89,7 @@
     }
   ],
   "thumb": "projects/ObstacleTheory_UCLA/media/obstacletheory_cover.jpg",
-  "hidden": false,
   "category": "Animation",
+  "visible": true,
   "order": 90
 }

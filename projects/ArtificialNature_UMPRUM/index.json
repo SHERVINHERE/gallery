@@ -41,7 +41,7 @@
     }
   ],
   "thumb": "projects/ArtificialNature_UMPRUM/media/artificialnature_cover.jpg",
-  "hidden": false,
   "category": "ArchViz, Animation",
+  "visible": true,
   "order": 100
 }

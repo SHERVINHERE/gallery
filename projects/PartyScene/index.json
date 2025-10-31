@@ -23,7 +23,7 @@
     }
   ],
   "thumb": "projects/PartyScene/media/party_cover.jpg",
-  "hidden": false,
   "category": "ArchViz, Art",
+  "visible": true,
   "order": 130
 }

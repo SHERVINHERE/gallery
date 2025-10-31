@@ -17,7 +17,7 @@
     }
   ],
   "thumb": "projects/ASCOT_Visualizations/media/ASCOT_cover.jpg",
-  "hidden": false,
   "category": "ArchViz, Animation, Wayfinding",
+  "visible": true,
   "order": 70
 }

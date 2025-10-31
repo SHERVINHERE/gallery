@@ -4,8 +4,8 @@
     "title": "ASCOT_Visualizations",
     "thumb": "projects/ASCOT_Visualizations/media/ASCOT_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "ArchViz, Animation, Wayfinding",
+    "visible": true,
     "order": 70
   },
   {
@@ -13,8 +13,8 @@
     "title": "Agent_Simulations",
     "thumb": "projects/Agent_Simulations/media/agentsim_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "WebApp, Interactive",
+    "visible": false,
     "order": 65
   },
   {
@@ -22,8 +22,8 @@
     "title": "Archviz",
     "thumb": "projects/Archviz/media/archviz_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "ArchViz",
+    "visible": true,
     "order": 66
   },
   {
@@ -31,8 +31,8 @@
     "title": "ArtificialNature_UMPRUM",
     "thumb": "projects/ArtificialNature_UMPRUM/media/artificialnature_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "ArchViz, Animation",
+    "visible": true,
     "order": 100
   },
   {
@@ -40,8 +40,8 @@
     "title": "Autonomous_Wall",
     "thumb": "projects/Autonomous_Wall/media/dwall_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "DigitalFabrication",
+    "visible": true,
     "order": 80
   },
   {
@@ -49,8 +49,8 @@
     "title": "Burningman_Art",
     "thumb": "projects/Burningman_Art/media/bm_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "Art",
+    "visible": true,
     "order": 75
   },
   {
@@ -58,8 +58,8 @@
     "title": "CPHS_Interactive",
     "thumb": "projects/CPHS_Interactive/media/cphs_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "Interactive",
+    "visible": true,
     "order": 20
   },
   {
@@ -67,8 +67,8 @@
     "title": "DigitalFabrication",
     "thumb": "projects/DigitalFabrication/media/digifab_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "DigitalFabrication, Art",
+    "visible": true,
     "order": 120
   },
   {
@@ -76,8 +76,8 @@
     "title": "DigitalTwin",
     "thumb": "projects/DigitalTwin/media/DigitalTwin_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "Digital Twin, Interactive",
+    "visible": true,
     "order": 50
   },
   {
@@ -85,8 +85,8 @@
     "title": "LifeOfMuqarnas_UMPRUM",
     "thumb": "projects/LifeOfMuqarnas_UMPRUM/media/muqarnas_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "ArchViz, Animation",
+    "visible": true,
     "order": 110
   },
   {
@@ -94,8 +94,8 @@
     "title": "Mosque_Iran",
     "thumb": "projects/Mosque_Iran/media/mosque_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "ArchViz",
+    "visible": true,
     "order": 130
   },
   {
@@ -103,8 +103,8 @@
     "title": "ObstacleTheory_UCLA",
     "thumb": "projects/ObstacleTheory_UCLA/media/obstacletheory_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "Animation",
+    "visible": true,
     "order": 90
   },
   {
@@ -112,8 +112,8 @@
     "title": "PartyScene",
     "thumb": "projects/PartyScene/media/party_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "ArchViz, Art",
+    "visible": true,
     "order": 130
   },
   {
@@ -121,8 +121,8 @@
     "title": "Patent_Dental",
     "thumb": "projects/Patent_Dental/media/dental_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "Patent, Invention",
+    "visible": true,
     "order": 72
   },
   {
@@ -130,8 +130,8 @@
     "title": "PhaseExplorer_WebApp",
     "thumb": "projects/PhaseExplorer_WebApp/media/PhaseExplorer_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "Web, Interactive, Unity, Architecture Tech",
+    "visible": false,
     "order": 30
   },
   {
@@ -139,8 +139,8 @@
     "title": "Providence_Animation",
     "thumb": "projects/Providence_Animation/media/Providence_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "architectural animation, archviz animation, using unreal engine, unreal engine animation",
+    "visible": true,
     "order": 40
   },
   {
@@ -148,8 +148,8 @@
     "title": "Publications",
     "thumb": "projects/Publications/media/publications_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "Publication",
+    "visible": true,
     "order": 65
   },
   {
@@ -157,8 +157,8 @@
     "title": "Talk_AIA_LA",
     "thumb": "projects/Talk_AIA_LA/media/aiala_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "Talks",
+    "visible": true,
     "order": 10
   },
   {
@@ -166,8 +166,8 @@
     "title": "Talks_PanelDiscussions",
     "thumb": "projects/Talks_PanelDiscussions/media/talks_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "Talk",
+    "visible": true,
     "order": 73
   },
   {
@@ -175,8 +175,8 @@
     "title": "UCR_Animation",
     "thumb": "projects/UCR_Animation/media/UCR_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "ArchViz, Animation",
+    "visible": true,
     "order": 60
   },
   {
@@ -184,8 +184,8 @@
     "title": "UnrealEngine",
     "thumb": "projects/UnrealEngine/media/UE_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "Interactive, ArchViz",
+    "visible": true,
     "order": 68
   },
   {
@@ -193,8 +193,8 @@
     "title": "VR_samples",
     "thumb": "projects/VR_samples/media/ARVR_cover.jpg",
     "externalUrl": null,
-    "hidden": false,
     "category": "Interactive, VR",
+    "visible": true,
     "order": 55
   }
 ]

@@ -83,7 +83,7 @@
     }
   ],
   "thumb": "projects/Patent_Dental/media/dental_cover.jpg",
-  "hidden": false,
   "category": "Patent, Invention",
+  "visible": true,
   "order": 72
 }

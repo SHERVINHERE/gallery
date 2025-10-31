@@ -11,7 +11,7 @@
     }
   ],
   "thumb": "projects/Talk_AIA_LA/media/aiala_cover.jpg",
-  "hidden": false,
   "category": "Talks",
+  "visible": true,
   "order": 10
 }

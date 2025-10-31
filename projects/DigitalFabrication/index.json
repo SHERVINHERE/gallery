@@ -65,7 +65,7 @@
     }
   ],
   "thumb": "projects/DigitalFabrication/media/digifab_cover.jpg",
-  "hidden": false,
   "category": "DigitalFabrication, Art",
+  "visible": true,
   "order": 120
 }

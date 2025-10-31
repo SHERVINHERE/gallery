@@ -23,7 +23,7 @@
     }
   ],
   "thumb": "projects/Agent_Simulations/media/agentsim_cover.jpg",
-  "hidden": false,
   "category": "WebApp, Interactive",
+  "visible": false,
   "order": 65
 }

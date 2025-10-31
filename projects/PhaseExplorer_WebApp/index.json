@@ -11,7 +11,7 @@
     }
   ],
   "thumb": "projects/PhaseExplorer_WebApp/media/PhaseExplorer_cover.jpg",
-  "hidden": false,
   "category": "Web, Interactive, Unity, Architecture Tech",
+  "visible": false,
   "order": 30
 }

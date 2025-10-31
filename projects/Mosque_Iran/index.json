@@ -47,7 +47,7 @@
     }
   ],
   "thumb": "projects/Mosque_Iran/media/mosque_cover.jpg",
-  "hidden": false,
   "category": "ArchViz",
+  "visible": true,
   "order": 130
 }

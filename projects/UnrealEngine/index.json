@@ -41,7 +41,7 @@
     }
   ],
   "thumb": "projects/UnrealEngine/media/UE_cover.jpg",
-  "hidden": false,
   "category": "Interactive, ArchViz",
+  "visible": true,
   "order": 68
 }
