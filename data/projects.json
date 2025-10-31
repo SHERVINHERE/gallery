@@ -60,7 +60,8 @@
     "externalUrl": null,
     "hidden": false,
     "category": "Interactive",
-    "order": 20
+    "order": 20,
+    "visible": false
   },
   {
     "slug": "DigitalFabrication",
