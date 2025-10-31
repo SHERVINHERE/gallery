@@ -54,6 +54,6 @@
   ],
   "thumb": "projects/Providence_Animation/media/Providence_cover.jpg",
   "category": "architectural animation, archviz animation, using unreal engine, unreal engine animation",
-  "visible": true,
+  "visible": false,
   "order": 40
 }
