@@ -13,7 +13,10 @@ async function load() {
     return;
   }
 
-  // --- NEW: sort by "order" (ascending). Missing/invalid order -> bottom (9999). Tie-breaker: title/slug A→Z.
+  // NEW: filter by visibility (missing flag => visible)
+  projects = projects.filter(p => p && p.visible !== false);
+
+  // --- Keep your sorting by "order" (ascending). Missing/invalid -> bottom (9999). Tie-breaker: title/slug A→Z.
   const normOrder = (v) => {
     const n = typeof v === 'string' ? parseFloat(v) : v;
     return Number.isFinite(n) ? n : 9999;
@@ -26,7 +29,7 @@ async function load() {
     const bt = (b.title || b.slug || '').toString();
     return at.localeCompare(bt, undefined, { sensitivity: 'base' });
   });
-  // --- END NEW
+  // --- END
 
   projects.forEach(p => {
     const a = cardTmpl.content.firstElementChild.cloneNode(true);
@@ -36,14 +39,16 @@ async function load() {
       a.target = "_blank";
       a.rel = "noopener noreferrer";
     } else {
-      a.href = `project.html?slug=${encodeURIComponent(p.slug)}`;
+      // Fallback-safe if slug is missing
+      const slug = encodeURIComponent(p.slug || '');
+      a.href = slug ? `project.html?slug=${slug}` : '#';
     }
 
     const img = a.querySelector('img');
     img.src = p.thumb || 'assets/placeholder.svg';
-    img.alt = p.title || p.slug;
+    img.alt = p.title || p.slug || 'project';
 
-    a.querySelector('.card-title').textContent = p.title || p.slug;
+    a.querySelector('.card-title').textContent = p.title || p.slug || 'Untitled';
     grid.appendChild(a);
   });
 }
