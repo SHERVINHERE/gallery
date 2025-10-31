@@ -1,22 +1,51 @@
+// assets/home.js
 async function load() {
   const grid = document.getElementById('grid');
   const cardTmpl = document.getElementById('card-tmpl');
+  if (!grid || !cardTmpl) return;
+
+  // Cache-bust so GitHub Pages/CDN can't serve a stale projects.json
+  const DATA_URL = `data/projects.json?v=${Date.now()}`;
 
   let projects = [];
   try {
-    const res = await fetch('data/projects.json', { cache: 'no-store' });
+    const res = await fetch(DATA_URL, { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     projects = await res.json();
     if (!Array.isArray(projects)) projects = [];
   } catch (err) {
-    console.error('Failed to load projects.json', err);
+    console.error('Failed to load projects.json:', err);
     grid.innerHTML = '<p style="color:#f88">Failed to load projects list.</p>';
     return;
   }
 
-  // NEW: filter by visibility (missing flag => visible)
-  projects = projects.filter(p => p && p.visible !== false);
+  // Normalize booleans that might arrive as strings
+  const toBoolOrUndef = (v) => {
+    if (typeof v === 'boolean') return v;
+    if (typeof v === 'string') {
+      const s = v.trim().toLowerCase();
+      if (s === 'true') return true;
+      if (s === 'false') return false;
+    }
+    return undefined;
+  };
 
-  // --- Keep your sorting by "order" (ascending). Missing/invalid -> bottom (9999). Tie-breaker: title/slug A→Z.
+  // Visibility rule:
+  // - If "visible" is provided: show only if visible !== false
+  // - Else if "hidden" is provided: show only if hidden !== true
+  // - Else (neither provided): show by default
+  const isVisible = (p) => {
+    const v = toBoolOrUndef(p.visible);
+    if (v !== undefined) return v !== false;
+    const h = toBoolOrUndef(p.hidden);
+    if (h !== undefined) return h !== true;
+    return true;
+  };
+
+  // Filter by visibility
+  projects = projects.filter((p) => p && isVisible(p));
+
+  // Sort by "order" ascending (missing/invalid -> bottom=9999), tie-breaker: title/slug A→Z
   const normOrder = (v) => {
     const n = typeof v === 'string' ? parseFloat(v) : v;
     return Number.isFinite(n) ? n : 9999;
@@ -29,28 +58,41 @@ async function load() {
     const bt = (b.title || b.slug || '').toString();
     return at.localeCompare(bt, undefined, { sensitivity: 'base' });
   });
-  // --- END
 
-  projects.forEach(p => {
-    const a = cardTmpl.content.firstElementChild.cloneNode(true);
+  // Render
+  const frag = document.createDocumentFragment();
 
+  projects.forEach((p) => {
+    const node = cardTmpl.content.firstElementChild.cloneNode(true);
+
+    // Link
     if (p.externalUrl) {
-      a.href = p.externalUrl;
-      a.target = "_blank";
-      a.rel = "noopener noreferrer";
+      node.href = p.externalUrl;
+      node.target = '_blank';
+      node.rel = 'noopener noreferrer';
     } else {
-      // Fallback-safe if slug is missing
       const slug = encodeURIComponent(p.slug || '');
-      a.href = slug ? `project.html?slug=${slug}` : '#';
+      node.href = slug ? `project.html?slug=${slug}` : '#';
     }
 
-    const img = a.querySelector('img');
-    img.src = p.thumb || 'assets/placeholder.svg';
-    img.alt = p.title || p.slug || 'project';
+    // Image
+    const img = node.querySelector('img');
+    if (img) {
+      img.src = p.thumb || 'assets/placeholder.svg';
+      img.alt = p.title || p.slug || 'project';
+      img.loading = 'lazy';
+      img.decoding = 'async';
+    }
 
-    a.querySelector('.card-title').textContent = p.title || p.slug || 'Untitled';
-    grid.appendChild(a);
+    // Title
+    const titleEl = node.querySelector('.card-title');
+    if (titleEl) titleEl.textContent = p.title || p.slug || 'Untitled';
+
+    frag.appendChild(node);
   });
+
+  grid.innerHTML = '';
+  grid.appendChild(frag);
 }
 
 document.addEventListener('DOMContentLoaded', load);
