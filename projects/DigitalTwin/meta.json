@@ -1,7 +1,7 @@
 {
   "title": "DigitalTwin",
   "thumb": "media/DigitalTwin_cover.jpg",
-  "hidden": false,
   "category": "Digital Twin, Interactive",
-  "order": 50
+  "order": 50,
+  "visible": false
 }
