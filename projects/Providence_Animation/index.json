@@ -1,7 +1,7 @@
 {
-  "slug": "Hospital_Animation",
-  "title": "Hospital_Animation",
-  "summaryHTML": "<h2>Overview</h2>\n<p>Animation for a hospital, highlighting the experience of the visitors arrival. This animation was made using Unreal Engine.</p>\n",
+  "slug": "Providence_Animation",
+  "title": "Providence_Animation",
+  "summaryHTML": "<h2>Overview</h2>\n<p>Animation for Providence hospital, highlighting the experience of the visitors arrival. This animation was made using Unreal Engine 5.</p>\n<p>Phasing WebApp: https://coarchitects.github.io/providence/.</p>\n",
   "content": [
     {
       "type": "iframe",
