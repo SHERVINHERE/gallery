@@ -126,15 +126,6 @@
     "order": 72
   },
   {
-    "slug": "PhaseExplorer_WebApp",
-    "title": "PhaseExplorer_WebApp",
-    "thumb": "projects/PhaseExplorer_WebApp/media/PhaseExplorer_cover.jpg",
-    "externalUrl": null,
-    "category": "Web, Interactive, Unity, Architecture Tech",
-    "visible": false,
-    "order": 30
-  },
-  {
     "slug": "Providence_Animation",
     "title": "Providence_Animation",
     "thumb": "projects/Providence_Animation/media/Providence_cover.jpg",
