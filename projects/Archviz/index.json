@@ -5,21 +5,6 @@
   "content": [
     {
       "type": "image",
-      "src": "projects/Archviz/media/image_1.jpg",
-      "alt": "image_1"
-    },
-    {
-      "type": "image",
-      "src": "projects/Archviz/media/image_2.jpg",
-      "alt": "image_2"
-    },
-    {
-      "type": "image",
-      "src": "projects/Archviz/media/image_3.jpg",
-      "alt": "image_3"
-    },
-    {
-      "type": "image",
       "src": "projects/Archviz/media/image_4.jpg",
       "alt": "image_4"
     },
